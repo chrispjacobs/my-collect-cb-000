@@ -8,3 +8,6 @@ def my_collect(array)
     array
   end
 end
+
+sample_array = [1, 2, 3, 4]
+my_collect(sample_array) {|i| puts i}
