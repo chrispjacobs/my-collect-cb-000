@@ -5,8 +5,8 @@ def my_collect(array)
       yield(array[i])
       i += 1
     end
-    array
   end
+  array
 end
 
 sample_array = [1, 2, 3, 4]
